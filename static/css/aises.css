@@ -1,8 +1,23 @@
+h1, h2, h3, h4, h5, h6 {
+	color: #999999;
+}
+
+#paragraph {
+	background: white;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 15px;
+	margin: 0 auto;
+	margin-top: 20px;
+	float: none;
+}
+
 body {
 	padding-top: 20px;
 	background-image: url("../img/background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position: right top;
 }
 
 .navbar {
@@ -14,14 +29,12 @@ body {
 
 .navbar .container {
 	height: 70px;
+	background: none;
 }
 
 .navbar .brand {
-	color: FBFBFB;
+	color: #FBFBFB;
 	font-size: 38px;
-}
-
-.navbar-text {
 }
 
 .navbar-inner {
