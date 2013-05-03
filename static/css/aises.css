@@ -1,0 +1,59 @@
+body {
+	padding-top: 20px;
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.navbar {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	line-height: 1;
+}
+
+.navbar .container {
+	height: 70px;
+}
+
+.navbar .brand {
+	color: FBFBFB;
+	font-size: 38px;
+}
+
+.navbar-text {
+}
+
+.navbar-inner {
+	background: rgba(255,0,0,0.4);
+}
+
+.navbar .navbar-inner {
+
+	border: 0px;
+}
+
+.navbar .nav {
+	font-color: #FBFBFB;
+	text-shadow: none;
+}
+
+.navbar .nav > li > a {
+	line-height: 3;
+	font-size: 14px;
+	color: #FBFBFB;
+}
+
+.navbar .nav > li > a:hover {
+	
+	border-color: #CBCBCB;
+}
+
+#calendar {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#cal_iframe {
+	border-radius: 5px;
+}

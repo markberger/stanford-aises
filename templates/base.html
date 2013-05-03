@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Stanford AISES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stanford AISES">
+    <meta name="author" content="Mark J. Berger">
+    <!-- Le styles -->
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 80px; /* Only include this for the fixed top bar */
+      }
+    </style>
+    <link href="static/css/aises.css"
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    
+    <div class="navbar navbar-top" style="height: 80px">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand">Stanford AISES</a>
+            <ul class="nav pull-right">
+              <li><a href="/">About AISES</a></li>
+              <li><a href="/calendar">Calendar</a></li>
+              <li><a href="projects">Projects</a></li>
+              <li><a href="corporate">Corporate</a></li>
+              <li><a href="contact">Contact Us</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    {% block content %}
+    {% endblock %}
+    
+    
+    
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+   <script src="static/js/jquery.min.js"></script>
+   <script src="static/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
