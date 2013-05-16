@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-	padding-top: 40px;
+	padding-top: 20px;
 	margin: 0 auto;
 	background-image: url("../img/background.jpg");
 	background-repeat: no-repeat;
@@ -25,18 +25,35 @@ body {
 	background-size: cover;
 }
 
+#icon {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 a:hover {
 	color: #33b5e5;
 }
 
-@media screen and (max-width: 768px) {
-    body { padding-top: 0px; }
+@media (max-width: 300px) {
+    .navbar .brand {
+    		font-size: 34px;
+    }
 }
 
 .navbar {
 	margin: 0px;
 	border: 0px;
 	padding: 0px;
+	padding-top: 0px;
+}
+
+.navbar .navbar-top {
+	height: none;
+}
+
+.navbar-collapse .collapse {
+	display: block;
+	position: absolute;
 }
 
 .navbar .container {
@@ -45,10 +62,9 @@ a:hover {
 	padding-right: 20px;
 }
 
-
 .navbar .brand {
 	color: #FBFBFB;
-	font-size: 38px;
+	font-size: 34px;
 }
 
 .navbar-inner {
@@ -65,19 +81,18 @@ a:hover {
 }
 
 .navbar .nav > li > a {
-	
 	font-size: 14px;
 	color: #FBFBFB;
 }
 
 .navbar .nav > li > a:hover {
-	
 	border-color: #CBCBCB;
 }
 
 #calendar {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	height: 70%
 }
 
 #cal_iframe {
