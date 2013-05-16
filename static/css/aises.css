@@ -21,7 +21,8 @@ body {
 	background-image: url("../img/background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: right top;
+	background-position: top middle;
+	background-size: cover;
 }
 
 a:hover {
