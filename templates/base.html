@@ -8,11 +8,7 @@
     <meta name="author" content="Mark J. Berger">
     <!-- Le styles -->
     <link href="static/css/bootstrap.css" rel="stylesheet">
-    <style>
-      body {
-        padding-top: 80px; /* Only include this for the fixed top bar */
-      }
-    </style>
+    <link href="static/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="static/css/aises.css"
     <link href='http://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
     <link rel="icon" href="">
@@ -23,22 +19,24 @@
     <![endif]-->
   </head>
 
-  <body>
-    
-    <div class="navbar navbar-top" style="height: 80px">
+ <div class="navbar navbar-top" style="height: 80px">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand">Stanford AISES</a>
+          <a href="/" class="brand">Stanford AISES</a>
             <ul class="nav pull-right">
-              <li><a href="/">About AISES</a></li>
+              <li><a href="/about">About AISES</a></li>
               <li><a href="/calendar">Calendar</a></li>
-              <li><a href="projects">Projects</a></li>
-              <li><a href="corporate">Corporate</a></li>
-              <li><a href="contact">Contact Us</a></li>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/corporate">Corporate</a></li>
+              <li><a href="/contact">Contact Us</a></li>
             </ul>
         </div>
       </div>
     </div>
+
+
+  <body>
+    
 
     {% block content %}
     {% endblock %}

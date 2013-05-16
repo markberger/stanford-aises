@@ -3,34 +3,47 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #paragraph {
-	background: white;
+	background-color: rgba(255, 255, 255, .9);
 	border-radius: 5px;
-	margin-top: 20px;
 	padding: 15px;
+	border-left: 20px;
+	padding-right: 30px;
+	padding-left: 20px;
 	margin: 0 auto;
 	margin-top: 20px;
+	margin-bottom: 40px;
 	float: none;
 }
 
 body {
-	padding-top: 20px;
+	padding-top: 40px;
+	margin: 0 auto;
 	background-image: url("../img/background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: right top;
 }
 
+a:hover {
+	color: #33b5e5;
+}
+
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
+
 .navbar {
 	margin: 0px;
 	border: 0px;
 	padding: 0px;
-	line-height: 1;
 }
 
 .navbar .container {
-	height: 70px;
 	background: none;
+	padding-left: 20px;
+	padding-right: 20px;
 }
+
 
 .navbar .brand {
 	color: #FBFBFB;
@@ -38,11 +51,10 @@ body {
 }
 
 .navbar-inner {
-	background: rgba(255,0,0,0.4);
+	background: rgba(255,0,0,0.55);
 }
 
 .navbar .navbar-inner {
-
 	border: 0px;
 }
 
@@ -52,7 +64,7 @@ body {
 }
 
 .navbar .nav > li > a {
-	line-height: 3;
+	
 	font-size: 14px;
 	color: #FBFBFB;
 }
@@ -69,4 +81,8 @@ body {
 
 #cal_iframe {
 	border-radius: 5px;
+}
+
+ul {
+	list-style-type: none;
 }
