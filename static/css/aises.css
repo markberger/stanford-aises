@@ -26,6 +26,10 @@ body {
 	background-size: cover;
 }
 
+.photo {
+	text-align: center;
+}
+
 #icon {
 	padding-left: 5px;
 	padding-right: 5px;
