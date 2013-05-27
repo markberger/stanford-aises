@@ -1,4 +1,4 @@
-from fabric.api import local, env, run, cd, put
+from fabric.api import local, env, run, put
 from flask_frozen import Freezer
 from main import app
 from fab_settings import *
