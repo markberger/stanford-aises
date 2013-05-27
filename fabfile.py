@@ -1,7 +1,7 @@
 from fabric.api import local, env, run, cd, put
 from flask_frozen import Freezer
 from main import app
-from fab-settings import *
+from fab_settings import *
 
 env.user = USER
 env.hosts = HOSTS
