@@ -2,7 +2,7 @@ from fabric.api import local, put, task, execute
 from flask_frozen import Freezer
 from main import app
 
-HOST = "myth.stanford.edu"
+HOST = "corn.stanford.edu"
 
 @task
 def freeze():
