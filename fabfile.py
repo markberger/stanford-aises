@@ -1,4 +1,7 @@
-from fabric.api import local, put, task, execute
+from fabric.api import local
+from fabric.api import put
+from fabric.api import task
+from fabric.api import execute
 from flask_frozen import Freezer
 from main import app
 
@@ -12,7 +15,7 @@ def freeze():
 	print("Freezing complete.")
 
 def pushToAFS():
-        put("build/*", "~/aises/WWW")
+        put("build/*", "/afs/ir.stanford.edu/group/aises/WWW")
 
 @task
 def deploy(servName="test"):
