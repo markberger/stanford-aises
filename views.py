@@ -13,6 +13,10 @@ def about():
 def calendar():
 	return render_template('calendar.html')
 
+@app.route('/tutoring.html')
+def tutoring():
+	return render_template('tutoring.html')
+
 @app.route('/projects.html')
 def projects():
 	return render_template('projects.html')
