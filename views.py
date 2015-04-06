@@ -28,3 +28,15 @@ def corporate():
 @app.route('/contact.html')
 def contact():
 	return render_template('contact.html')
+
+@app.route('/regional/index.html')
+def regional_conference():
+    return render_template('/regional.html')
+
+@app.route('/regional/registration.html')
+def conference_registration():
+    return render_template('conference-registration.html')
+
+@app.route('/regional/poster-registration.html')
+def poster_registration():
+    return render_template('poster-registration.html')
